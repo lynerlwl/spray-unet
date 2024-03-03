@@ -34,8 +34,6 @@ class LoadDataset(Dataset):
         img = self.load(img_file[0], is_mask = False)
         mask = self.load(mask_file[0])
         
-        assert img.size == mask.size, f'Image and mask {name} should be the same size, but are {img.size} and {mask.size}'
-
         return {
             'image': torch.as_tensor(img.copy()).float().contiguous(),
             'mask': torch.as_tensor(mask.copy()).long().contiguous()

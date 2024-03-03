@@ -10,7 +10,7 @@ import numpy as np
 from tqdm import tqdm
 
 from data_loading import LoadDataset
-from unet import UNet
+from model.unet import UNet
 from dice_score import dice_loss
 from evaluate import evaluate
 
@@ -46,7 +46,7 @@ if __name__ == '__main__':
 
     # 2. Initialise model
 
-    model = UNet(n_channels=1, n_classes=5, bilinear=False)
+    model = UNet(n_channels=3, n_classes=5, bilinear=False)
 
     if load != False:
         pretrained_dict = torch.load(load, map_location=device)

@@ -1,1 +1,4 @@
-.DS_Store
+__pycache__
+checkpoint
+model/__pycache__
+model/learn_poly_sampling/layers/__pycache__/
