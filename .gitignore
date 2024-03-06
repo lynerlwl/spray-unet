@@ -2,3 +2,4 @@ __pycache__
 checkpoint
 model/__pycache__
 model/learn_poly_sampling/layers/__pycache__/
+.DS_Store
