@@ -1,6 +1,6 @@
 # spray-unet
 
-Code for article "[Semantic Liquid Spray Understanding with Computer-Generated Images](https://ieeexplore.ieee.org/document/10459179)" published in IEEE Access 2024.
+Code for "[Semantic Liquid Spray Understanding with Computer-Generated Images](https://ieeexplore.ieee.org/document/10459179)" published in IEEE Access 2024.
 
 Training
 ```
