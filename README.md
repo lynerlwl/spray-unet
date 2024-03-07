@@ -1,6 +1,6 @@
 # spray-unet
 
-Code for article "Semantic Liquid Spray Understanding with Computer-Generated Images" to be published in IEEE Access 2024.
+Code for "[Semantic Liquid Spray Understanding with Computer-Generated Images](https://ieeexplore.ieee.org/document/10459179)" published in IEEE Access 2024.
 
 Training
 ```
@@ -14,4 +14,13 @@ python predict.py
 
 If you use this code or found it helpful, please consider citing:
 ```bibtex
+@article{lim2024semantic,
+  title={Semantic Liquid Spray Understanding with Computer-Generated Images},
+  author={Lim, Wei Lun and Teow, Matthew YW and Wong, Richard TK and Pathan, Refat Khan and Ho, Chiung Ching and Koneru, Rahul Babu and Khare, Prashant and Bravo, Luis and Lau, Sian Lun},
+  journal={IEEE Access},
+  volume={},
+  number={},
+  pages={},
+  year={2024}
+}
 ```
