@@ -18,9 +18,9 @@ If you use this code or found it helpful, please consider citing:
   title={Semantic Liquid Spray Understanding with Computer-Generated Images},
   author={Lim, Wei Lun and Teow, Matthew YW and Wong, Richard TK and Pathan, Refat Khan and Ho, Chiung Ching and Koneru, Rahul Babu and Khare, Prashant and Bravo, Luis and Lau, Sian Lun},
   journal={IEEE Access},
-  volume={},
+  volume={12},
   number={},
-  pages={},
+  pages={39968-39977},
   year={2024}
 }
 ```
